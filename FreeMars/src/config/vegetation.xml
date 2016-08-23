@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VegetationTypes>
+    <Vegetation>
+        <id>0</id>
+        <name>Mutated cactus forest</name>
+        <turnsNeededToClear>4</turnsNeededToClear>
+        <tileTypes>
+            <tileTypeId>0</tileTypeId>
+            <tileTypeId>1</tileTypeId>
+            <tileTypeId>2</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>-3</modifier>
+            </modifyResourceProduction>
+            <modifyResourceProduction>
+                <resource>Lumber</resource>
+                <modifier>3</modifier>
+            </modifyResourceProduction>
+            <set_movement_cost_property movementCost="2"/>
+        </properties>
+    </Vegetation>
+    <Vegetation>
+        <id>1</id>
+        <name>Martian scrub forest</name>
+        <turnsNeededToClear>3</turnsNeededToClear>
+        <tileTypes>
+            <tileTypeId>1</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>-4</modifier>
+            </modifyResourceProduction>
+            <modifyResourceProduction>
+                <resource>Lumber</resource>
+                <modifier>3</modifier>
+            </modifyResourceProduction>
+            <set_movement_cost_property movementCost="2"/>
+        </properties>
+    </Vegetation>
+    <Vegetation>
+        <id>2</id>
+        <name>Martian taiga</name>
+        <turnsNeededToClear>4</turnsNeededToClear>
+        <tileTypes>
+            <tileTypeId>3</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>-4</modifier>
+            </modifyResourceProduction>
+            <modifyResourceProduction>
+                <resource>Lumber</resource>
+                <modifier>5</modifier>
+            </modifyResourceProduction>
+            <set_movement_cost_property movementCost="2"/>
+        </properties>
+    </Vegetation>
+    <Vegetation>
+        <id>3</id>
+        <name>Giant mushrooms</name>
+        <turnsNeededToClear>4</turnsNeededToClear>
+        <tileTypes>
+            <tileTypeId>0</tileTypeId>
+            <tileTypeId>1</tileTypeId>
+            <tileTypeId>2</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>-2</modifier>
+            </modifyResourceProduction>
+            <modifyResourceProduction>
+                <resource>Lumber</resource>
+                <modifier>2</modifier>
+            </modifyResourceProduction>
+            <set_movement_cost_property movementCost="2"/>
+        </properties>
+    </Vegetation>
+</VegetationTypes>

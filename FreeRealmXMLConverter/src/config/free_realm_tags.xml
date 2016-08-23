@@ -1,0 +1,178 @@
+<tags>
+    <tag id="buildable_property">
+        <class>org.freerealm.property.BuildableProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.BuildablePropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="move_property">
+        <class>org.freerealm.property.MoveProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.MovePropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ContainerProperty">
+        <class>org.freerealm.property.ContainerProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ContainerPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="allow_movement_property">
+        <class>org.freerealm.property.AllowMovementProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.AllowMovementPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="not_removed_by_tile_transformation">
+        <class>org.freerealm.property.NotRemovedByTileTransformationProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.NotRemovedByTileTransformationPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="build_settlement_property">
+        <class>org.freerealm.property.BuildSettlementProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.BuildSettlementPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="Fight">
+        <class>org.freerealm.property.Fight</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.FightXMLConverter</xmlConverter>
+    </tag>
+    <tag id="modifyResourceProduction">
+        <class>org.freerealm.property.ModifyResourceProduction</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyResourceProductionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="remove_settlement_improvement_property">
+        <class>org.freerealm.property.RemoveSettlementImprovementProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.RemoveSettlementImprovementPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ProduceResource">
+        <class>org.freerealm.property.ProduceResource</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ProduceResourceXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyProduction">
+        <class>org.freerealm.property.ModifyProduction</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyProductionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyDefence">
+        <class>org.freerealm.property.ModifyDefence</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyDefenceXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyTaxIncome">
+        <class>org.freerealm.property.ModifyTaxIncome</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyTaxIncomeXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyMaximumWorkers">
+        <class>org.freerealm.property.ModifyMaximumWorkers</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyMaximumWorkersXMLConverter</xmlConverter>
+    </tag>
+    <tag id="store_resource_property">
+        <class>org.freerealm.property.StoreResourceProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.StoreResourcePropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="build_tile_improvement_property">
+        <class>org.freerealm.property.BuildTileImprovementProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.BuildTileImprovementPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="DestroyTileImprovementProperty">
+        <class>org.freerealm.property.DestroyTileImprovementProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.DestroyTileImprovementPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ChangeTileTypeProperty">
+        <class>org.freerealm.property.ChangeTileTypeProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ChangeTileTypePropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="clear_vegetation_property">
+        <class>org.freerealm.property.ClearVegetationProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ClearVegetationPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="set_movement_cost_property">
+        <class>org.freerealm.property.SetMovementCostProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.SetMovementCostPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="set_startup_unit_count_property">
+        <class>org.freerealm.property.SetStartupUnitCountProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.SetStartupUnitCountPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyEfficiency">
+        <class>org.freerealm.property.ModifyEfficiency</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyEfficiencyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyRequiredPopulationResourceAmount">
+        <class>org.freerealm.property.ModifyRequiredPopulationResourceAmount</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyRequiredPopulationResourceAmountXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifySettlementImprovementCost">
+        <class>org.freerealm.property.ModifySettlementImprovementCost</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifySettlementImprovementCostXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifySettlementImprovementUpkeepCost">
+        <class>org.freerealm.property.ModifySettlementImprovementUpkeepCost</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifySettlementImprovementUpkeepCostXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyStartingWealth">
+        <class>org.freerealm.property.ModifyStartingWealth</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyStartingWealthXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyUnitCost">
+        <class>org.freerealm.property.ModifyUnitCost</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyUnitCostXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyUnitUpkeepCost">
+        <class>org.freerealm.property.ModifyUnitUpkeepCost</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyUnitUpkeepCostXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyUnitTypeProperty">
+        <class>org.freerealm.property.ModifyUnitTypeProperty</class>
+        <xmlConverter>org.freerealm.xmlwrapper.property.ModifyUnitTypePropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ImproveTile">
+        <class>org.freerealm.executor.order.ImproveTile</class>
+        <xmlConverter>org.freerealm.executor.order.ImproveTileXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ClearVegetationOrder">
+        <class>org.freerealm.executor.order.ClearVegetationOrder</class>
+        <xmlConverter>org.freerealm.executor.order.ClearVegetationOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="BuildSettlementOrder">
+        <class>org.freerealm.executor.order.BuildSettlementOrder</class>
+        <xmlConverter>org.freerealm.executor.order.BuildSettlementOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="Sentry">
+        <class>org.freerealm.executor.order.Sentry</class>
+        <xmlConverter>org.freerealm.executor.order.SentryXMLConverter</xmlConverter>
+    </tag>
+    <tag id="GoToCoordinate">
+        <class>org.freerealm.executor.order.GoToCoordinate</class>
+        <xmlConverter>org.freerealm.executor.order.GoToCoordinateXMLConverter</xmlConverter>
+    </tag>
+    <tag id="Fortify">
+        <class>org.freerealm.executor.order.Fortify</class>
+        <xmlConverter>org.freerealm.executor.order.FortifyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="UnloadAllCargoOrder">
+        <class>org.freerealm.executor.order.UnloadAllCargoOrder</class>
+        <xmlConverter>org.freerealm.executor.order.UnloadAllCargoOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="UnloadAllPopulationOrder">
+        <class>org.freerealm.executor.order.UnloadAllPopulationOrder</class>
+        <xmlConverter>org.freerealm.executor.order.UnloadAllPopulationOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="TransformTileOrder">
+        <class>org.freerealm.executor.order.TransformTileOrder</class>
+        <xmlConverter>org.freerealm.executor.order.TransformTileOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="explorationMission">
+        <class>org.freerealm.player.mission.ExplorationMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.ExplorationMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="populationMission">
+        <class>org.freerealm.player.mission.PopulationMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.PopulationMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="settlementCountMission">
+        <class>org.freerealm.player.mission.SettlementCountMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.SettlementCountMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="tileImprovementCountMission">
+        <class>org.freerealm.player.mission.TileImprovementCountMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.TileImprovementCountMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="settlementImprovementCountMission">
+        <class>org.freerealm.player.mission.SettlementImprovementCountMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.SettlementImprovementCountMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="clear_tile_vegetation_count_mission">
+        <class>org.freerealm.player.mission.ClearTileVegetationCountMission</class>
+        <xmlConverter>org.freerealm.xmlwrapper.player.mission.ClearTileVegetationCountMissionXMLConverter</xmlConverter>
+    </tag>
+</tags>

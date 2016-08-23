@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="1.0">
+    <tocitem text="Marsopedia">
+    <tocitem target="Mars.Introduction" text="Mars"/>
+    <tocitem target="Mars.Terraforming" text="Terraforming"/>
+    <tocitem target="Mars.Colonization" text="Colonization"/>
+    <tocitem target="Government" text="Government">
+    <tocitem target="Government.Colony_tax" text="Colony tax"/>
+    </tocitem>
+    <tocitem target="TileType.General" text="Terrain">
+    <tocitem target="TileType.Wasteland" text="Wasteland"/>
+    <tocitem target="TileType.Desert" text="Desert"/>
+    <tocitem target="TileType.Plains" text="Plains"/>
+    <tocitem target="TileType.Tundra" text="Tundra"/>
+    <tocitem target="TileType.Crater" text="Crater"/>
+    <tocitem target="TileType.Ice" text="Ice"/>
+    <tocitem target="TileType.Chasm" text="Chasm"/>
+    <tocitem target="TileType.Misty_mountains" text="Misty mountains"/>
+    <tocitem target="TileType.Hills" text="Hills"/>
+    <tocitem target="TileType.Mountains" text="Mountains"/>
+    <tocitem target="TileType.Swamp" text="Swamp"/>
+    </tocitem>
+    <tocitem target="Resource.General" text="Resources">
+    <tocitem target="Resource.Food" text="Food"/>
+    <tocitem target="Resource.Energy" text="Energy"/>
+    <tocitem target="Resource.Hydrogen" text="Hydrogen"/>
+    <tocitem target="Resource.Lumber" text="Lumber"/>
+    <tocitem target="Resource.Iron" text="Iron"/>
+    <tocitem target="Resource.Steel" text="Steel"/>
+    <tocitem target="Resource.Silica" text="Silica"/>
+    <tocitem target="Resource.Glass" text="Glass"/>
+    <tocitem target="Resource.Minerals" text="Minerals"/>
+    <tocitem target="Resource.Chemicals" text="Chemicals"/>
+    </tocitem>
+    <tocitem target="Resource.Bonus.General" text="Bonus resources">
+    <tocitem target="Resource.Bonus.0" text="Macko lizard"/>
+    <tocitem target="Resource.Bonus.1" text="Iron deposits"/>
+    <tocitem target="Resource.Bonus.2" text="Silica deposits"/>
+    <tocitem target="Resource.Bonus.3" text="Mineral deposits"/>
+    </tocitem>
+    <tocitem target="Vegetation.General" text="Vegetation">
+    <tocitem target="Vegetation.Giant_mushrooms" text="Giant mushrooms"/>
+    <tocitem target="Vegetation.Martian_scrub_forest" text="Martian scrub forest"/>
+    <tocitem target="Vegetation.Martian_taiga" text="Martian taiga"/>
+    <tocitem target="Vegetation.Mutated_cactus_forest" text="Mutated cactus forest"/>
+    </tocitem>
+    <tocitem target="TileImprovement.General" text="Terrain improvements">
+    <tocitem target="TileImprovement.Irrigation" text="Irrigation"/>
+    <tocitem target="TileImprovement.Mine" text="Mines"/>
+    <tocitem target="TileImprovement.Road" text="Road"/>
+    </tocitem>
+    <tocitem target="Unit.General" text="Units">
+    <tocitem target="Unit.Colonizer" text="Colonizer"/>
+    <tocitem target="Unit.Engineer" text="Engineer"/>
+    <tocitem target="Unit.Scout" text="Scout"/>
+    <tocitem target="Unit.Shuttle" text="Shuttle"/>
+    <tocitem target="Unit.Militia" text="Militia"/>
+    <tocitem target="Unit.Mech" text="Mech"/>
+    <tocitem target="Unit.Transporter" text="Transporter"/>
+    </tocitem>
+
+    <tocitem target="Colony.Screen" text="Colony screen">
+        <tocitem target="Colony.Screen.SelectionRename" text="Colony selection and rename"/>
+        <tocitem target="Colony.Screen.PopulationEfficiency" text="Population and efficiency"/>
+        <tocitem target="Colony.Screen.AutoManageWaterFoodFertilizer" text="Auto manage water, food and fertilizer resources"/>
+        <tocitem target="Colony.Screen.ResourceProductionFromEnvironment" text="Resource production from environment"/>
+        <tocitem target="Colony.Screen.UnitsAndCargo" text="Units and cargo"/>
+        <tocitem target="Colony.Screen.Resources" text="Colony resources"/>
+        <tocitem target="Colony.Screen.Improvements" text="Colony improvements"/>
+        <tocitem target="Colony.Screen.Production" text="Colony production"/>
+    </tocitem>
+
+    <tocitem target="ColonyImprovement.General" text="Colony improvements">
+    <tocitem target="ColonyImprovement.Hydrogen_collector" text="Hydrogen collector"/>
+    <tocitem target="ColonyImprovement.Solar_array" text="Solar array"/>
+    <tocitem target="ColonyImprovement.Granary" text="Granary"/>
+    <tocitem target="ColonyImprovement.Food_silo" text="Food silo"/>
+    <tocitem target="ColonyImprovement.Hydroponic_farm" text="Hydroponic farm"/>
+    <tocitem target="ColonyImprovement.Workshop" text="Workshop"/>
+    <tocitem target="ColonyImprovement.Factory" text="Factory"/>
+    <tocitem target="ColonyImprovement.Mars_transit_system" text="Mars transit system"/>
+    <tocitem target="ColonyImprovement.Trading_post" text="Trading post"/>
+    <tocitem target="ColonyImprovement.Market" text="Market"/>
+    <tocitem target="ColonyImprovement.Bank" text="Bank"/>
+    <tocitem target="ColonyImprovement.Wall" text="Wall"/>
+    <tocitem target="ColonyImprovement.Defence_turrets" text="Defense turrets"/>
+    <tocitem target="ColonyImprovement.Theater" text="Theater"/>
+    <tocitem target="ColonyImprovement.Arena" text="Arena"/>
+    <tocitem target="ColonyImprovement.Steel_factory" text="Steel factory"/>
+    <tocitem target="ColonyImprovement.Glass_factory" text="Glass factory"/>
+    <tocitem target="ColonyImprovement.Chemical_plant" text="Chemical plant"/>
+    <tocitem target="ColonyImprovement.Starport" text="Starport"/>
+    <tocitem target="ColonyImprovement.Starshipyard" text="Starshipyard"/>
+    <tocitem target="ColonyImprovement.Mech_barracks" text="Mech barracks"/>
+    </tocitem>
+    <tocitem target="" text="Gameplay">
+        <tocitem target="Gameplay.Keyboard_shortcuts" text="Keyboard shortcuts"/>
+        <tocitem target="" text="Game tips">
+            <tocitem target="Tip.001" text="Tip 001"/>
+            <tocitem target="Tip.002" text="Tip 002"/>
+            <tocitem target="Tip.003" text="Tip 003"/>
+            <tocitem target="Tip.004" text="Tip 004"/>
+            <tocitem target="Tip.005" text="Tip 005"/>
+            <tocitem target="Tip.006" text="Tip 006"/>
+            <tocitem target="Tip.007" text="Tip 007"/>
+            <tocitem target="Tip.008" text="Tip 008"/>
+            <tocitem target="Tip.009" text="Tip 009"/>
+            <tocitem target="Tip.010" text="Tip 010"/>
+            <tocitem target="Tip.011" text="Tip 011"/>
+            <tocitem target="Tip.012" text="Tip 012"/>
+            <tocitem target="Tip.013" text="Tip 013"/>
+            <tocitem target="Tip.014" text="Tip 014"/>
+            <tocitem target="Tip.015" text="Tip 015"/>
+            <tocitem target="Tip.016" text="Tip 016"/>
+            <tocitem target="Tip.017" text="Tip 017"/>
+            <tocitem target="Tip.018" text="Tip 018"/>
+            </tocitem>
+        </tocitem>
+    </tocitem>
+</toc>

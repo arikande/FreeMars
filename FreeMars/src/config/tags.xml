@@ -1,0 +1,86 @@
+<tags>
+    <tag id="earth_flight_property">
+        <class>org.freemars.earth.EarthFlightProperty</class>
+        <xmlConverter>org.freemars.earth.EarthFlightPropertyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyFinanceColonizerCost">
+        <class>org.freemars.earth.ModifyFinanceColonizerCost</class>
+        <xmlConverter>org.freemars.earth.ModifyFinanceColonizerCostXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyEarthFlightTime">
+        <class>org.freemars.earth.ModifyEarthFlightTime</class>
+        <xmlConverter>org.freemars.earth.ModifyEarthFlightTimeXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyHydrogenConsumption">
+        <class>org.freemars.earth.ModifyHydrogenConsumption</class>
+        <xmlConverter>org.freemars.earth.ModifyHydrogenConsumptionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyResourceEarthSellPrice">
+        <class>org.freemars.earth.ModifyResourceEarthSellPrice</class>
+        <xmlConverter>org.freemars.earth.ModifyResourceEarthSellPriceXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ModifyEarthTaxRate">
+        <class>org.freemars.earth.ModifyEarthTaxRate</class>
+        <xmlConverter>org.freemars.earth.ModifyEarthTaxRateXMLConverter</xmlConverter>
+    </tag>
+    <tag id="RelocateUnitOrder">
+        <class>org.freemars.earth.order.RelocateUnitOrder</class>
+        <xmlConverter>org.freemars.earth.order.RelocateUnitOrderXMLConverter</xmlConverter>
+    </tag>
+    <tag id="DeclareAndDefendIndependence">
+        <class>org.freemars.model.objective.DeclareAndDefendIndependenceObjective</class>
+        <xmlConverter>org.freemars.model.objective.DeclareAndDefendIndependenceObjectiveXMLConverter</xmlConverter>
+    </tag>
+    <tag id="DefeatOtherPlayers">
+        <class>org.freemars.model.objective.DefeatOtherPlayersObjective</class>
+        <xmlConverter>org.freemars.model.objective.DefeatOtherPlayersObjectiveXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ReachPopulation">
+        <class>org.freemars.model.objective.ReachPopulationObjective</class>
+        <xmlConverter>org.freemars.model.objective.ReachPopulationObjectiveXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ReachTreasury">
+        <class>org.freemars.model.objective.ReachTreasuryObjective</class>
+        <xmlConverter>org.freemars.model.objective.ReachTreasuryObjectiveXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ExpeditionaryForcePlayer">
+        <class>org.freemars.ai.ExpeditionaryForcePlayer</class>
+        <xmlConverter>org.freemars.ai.ExpeditionaryForcePlayerXMLConverter</xmlConverter>
+    </tag>
+    <tag id="ai_player">
+        <class>org.freemars.ai.AIPlayer</class>
+        <xmlConverter>org.freemars.ai.AIPlayerXMLConverter</xmlConverter>
+    </tag>
+    <tag id="FreeMarsPlayer">
+        <class>org.freemars.player.FreeMarsPlayer</class>
+        <xmlConverter>org.freemars.player.FreeMarsPlayerXMLConverter</xmlConverter>
+    </tag>
+    <tag id="FreeMarsColony">
+        <class>org.freemars.colony.FreeMarsColony</class>
+        <xmlConverter>org.freemars.colony.FreeMarsColonyXMLConverter</xmlConverter>
+    </tag>
+    <tag id="collectDebrisMission">
+        <class>org.freemars.mission.CollectDebrisMission</class>
+        <xmlConverter>org.freemars.mission.CollectDebrisMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="exportResourceMission">
+        <class>org.freemars.mission.ExportResourceMission</class>
+        <xmlConverter>org.freemars.mission.ExportResourceMissionXMLConverter</xmlConverter>
+    </tag>
+    <tag id="wealthReward">
+        <class>org.freemars.mission.WealthReward</class>
+        <xmlConverter>org.freemars.mission.WealthRewardXMLConverter</xmlConverter>
+    </tag>
+    <tag id="spaceshipDebrisCollectable">
+        <class>org.freemars.tile.SpaceshipDebrisCollectable</class>
+        <xmlConverter>org.freemars.tile.SpaceshipDebrisCollectableXMLConverter</xmlConverter>
+    </tag>
+    <tag id="freeMarsEngineerAutomater">
+        <class>org.freemars.unit.automater.EngineerAutomater</class>
+        <xmlConverter>org.freemars.unit.automater.EngineerAutomaterXMLConverter</xmlConverter>
+    </tag>
+    <tag id="freeMarsScoutAutomater">
+        <class>org.freemars.unit.automater.ScoutAutomater</class>
+        <xmlConverter>org.freemars.unit.automater.ScoutAutomaterXMLConverter</xmlConverter>
+    </tag>
+</tags>

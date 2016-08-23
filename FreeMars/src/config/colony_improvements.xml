@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SettlementImprovements>
+    <SettlementImprovement id="0" name="Solar panel">
+        <workers>5</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>1000</build_cost>
+                <upkeep_cost>5</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="400">
+                <Output>
+                    <Resource id="2" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Energy" storage="50000"/>
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>1</improvementType>
+            </NoSettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="1" name="Solar array">
+        <workers>10</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>2000</build_cost>
+                <upkeep_cost>10</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>0</remove_settlement_improvement_property>
+            <ProduceResource maximumMultiplier="800">
+                <Output>
+                    <Resource id="2" quantity="1" />
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Energy" storage="100000" />
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>0</improvementType>
+            </SettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="2" name="Water pump">
+        <workers>5</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>1000</build_cost>
+                <upkeep_cost>5</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="400">
+                <Output>
+                    <Resource id="0" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Water" storage="50000" />
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>3</improvementType>
+            </NoSettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="3" name="Water extractor">
+        <workers>10</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>2000</build_cost>
+                <upkeep_cost>10</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>2</remove_settlement_improvement_property>
+            <ProduceResource maximumMultiplier="800">
+                <Output>
+                    <Resource id="0" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Water" storage="100000" />
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>2</improvementType>
+            </SettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="4" name="Hydrogen collector">
+        <workers>10</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>1000</build_cost>
+                <upkeep_cost>5</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="20">
+                <Output>
+                    <Resource id="3" quantity="1"/>
+                </Output>
+            </ProduceResource>
+        </Properties>
+    </SettlementImprovement>
+    <SettlementImprovement id="5" name="Granary">
+        <Properties>
+            <buildable_property>
+                <build_cost>2000</build_cost>
+                <upkeep_cost>10</upkeep_cost>
+            </buildable_property>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>10</modifier>
+            </modifyResourceProduction>
+            <store_resource_property resource="Food" storage="30000" />
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>6</improvementType>
+            </NoSettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="6" name="Food silo">
+        <Properties>
+            <buildable_property>
+                <build_cost>8000</build_cost>
+                <upkeep_cost>40</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>5</remove_settlement_improvement_property>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>20</modifier>
+            </modifyResourceProduction>
+            <store_resource_property resource="Food" storage="80000" />
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>5</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>200</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="7" name="Hydroponic farm">
+        <workers>20</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>16000</build_cost>
+                <upkeep_cost>80</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="125">
+                <Input>
+                    <Resource id="0" quantity="1"/>
+                    <Resource id="2" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="1" quantity="2"/>
+                </Output>
+            </ProduceResource>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>6</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>600</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="8" name="Workshop">
+        <Properties>
+            <buildable_property>
+                <build_cost>2000</build_cost>
+                <upkeep_cost>10</upkeep_cost>
+            </buildable_property>
+            <ModifyProduction>
+                <modifier>5</modifier>
+            </ModifyProduction>
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>9</improvementType>
+            </NoSettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>125</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="9" name="Factory">
+        <Properties>
+            <buildable_property>
+                <build_cost>8000</build_cost>
+                <upkeep_cost>40</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>8</remove_settlement_improvement_property>
+            <ModifyProduction>
+                <modifier>25</modifier>
+            </ModifyProduction>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>8</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="10" name="Mars transit system">
+        <Properties>
+            <buildable_property>
+                <build_cost>4000</build_cost>
+                <upkeep_cost>20</upkeep_cost>
+            </buildable_property>
+            <ModifyTaxIncome modifier="5" />
+            <ModifyMaximumWorkers modifier="50" />
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="11" name="Trading post">
+        <Properties>
+            <buildable_property>
+                <build_cost>2000</build_cost>
+                <upkeep_cost>10</upkeep_cost>
+            </buildable_property>
+            <ModifyTaxIncome modifier="10" />
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>200</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="12" name="Market">
+        <Properties>
+            <buildable_property>
+                <build_cost>8000</build_cost>
+                <upkeep_cost>40</upkeep_cost>
+            </buildable_property>
+            <ModifyTaxIncome modifier="15" />
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>11</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="13" name="Wall">
+        <Properties>
+            <buildable_property>
+                <build_cost>4000</build_cost>
+                <upkeep_cost>20</upkeep_cost>
+            </buildable_property>
+            <ModifyDefence modifier="100" />
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>300</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="14" name="Defense turrets">
+        <Properties>
+            <buildable_property>
+                <build_cost>20000</build_cost>
+                <upkeep_cost>100</upkeep_cost>
+            </buildable_property>
+            <ModifyDefence modifier="200" />
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>13</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="15" name="Theater">
+        <Properties>
+            <buildable_property>
+                <build_cost>6000</build_cost>
+                <upkeep_cost>30</upkeep_cost>
+            </buildable_property>
+            <ModifyEfficiency modifier="2"/>
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>600</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="16" name="Arena">
+        <Properties>
+            <buildable_property>
+                <build_cost>12000</build_cost>
+                <upkeep_cost>60</upkeep_cost>
+            </buildable_property>
+            <ModifyEfficiency modifier="4"/>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>15</improvementType>
+            </SettlementImprovementPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="17" name="Steel works">
+        <workers>40</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>4000</build_cost>
+                <upkeep_cost>20</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="100">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="6" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="7" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Iron" storage="5000"/>
+            <store_resource_property resource="Steel" storage="5000"/>
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>18</improvementType>
+            </NoSettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>150</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="18" name="Steel factory">
+        <workers>80</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>12000</build_cost>
+                <upkeep_cost>60</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>17</remove_settlement_improvement_property>
+            <ProduceResource maximumMultiplier="300">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="6" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="7" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Iron" storage="10000"/>
+            <store_resource_property resource="Steel" storage="10000"/>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>17</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>300</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="19" name="Glass works">
+        <workers>35</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>5000</build_cost>
+                <upkeep_cost>25</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="100">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="8" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="9" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Silica" storage="5000"/>
+            <store_resource_property resource="Glass" storage="5000"/>
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>20</improvementType>
+            </NoSettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>200</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="20" name="Glass factory">
+        <workers>70</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>15000</build_cost>
+                <upkeep_cost>75</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>19</remove_settlement_improvement_property>
+            <ProduceResource maximumMultiplier="300">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="8" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="9" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Silica" storage="10000"/>
+            <store_resource_property resource="Glass" storage="10000"/>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>19</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="21" name="Chemical works">
+        <workers>30</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>6000</build_cost>
+                <upkeep_cost>30</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="100">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="10" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="11" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Minerals" storage="5000"/>
+            <store_resource_property resource="Chemicals" storage="5000"/>
+        </Properties>
+        <Prerequisites>
+            <NoSettlementImprovementPrerequisite>
+                <improvementType>22</improvementType>
+            </NoSettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>250</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="22" name="Chemical plant">
+        <workers>60</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>18000</build_cost>
+                <upkeep_cost>60</upkeep_cost>
+            </buildable_property>
+            <remove_settlement_improvement_property>21</remove_settlement_improvement_property>
+            <ProduceResource maximumMultiplier="300">
+                <Input>
+                    <Resource id="2" quantity="2"/>
+                    <Resource id="10" quantity="2"/>
+                </Input>
+                <Output>
+                    <Resource id="11" quantity="1"/>
+                </Output>
+            </ProduceResource>
+            <store_resource_property resource="Minerals" storage="10000"/>
+            <store_resource_property resource="Chemicals" storage="10000"/>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>21</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>500</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="23" name="Starport">
+        <Properties>
+            <buildable_property>
+                <build_cost>8000</build_cost>
+                <upkeep_cost>40</upkeep_cost>
+            </buildable_property>
+            <store_resource_property resource="Iron" storage="5000"/>
+            <store_resource_property resource="Steel" storage="5000"/>
+            <store_resource_property resource="Silica" storage="5000"/>
+            <store_resource_property resource="Glass" storage="5000"/>
+            <store_resource_property resource="Minerals" storage="5000"/>
+            <store_resource_property resource="Chemicals" storage="5000"/>
+        </Properties>
+    </SettlementImprovement>
+    <SettlementImprovement id="24" name="Starshipyard">
+        <Properties>
+            <buildable_property>
+                <build_cost>12000</build_cost>
+                <upkeep_cost>80</upkeep_cost>
+            </buildable_property>
+        </Properties>
+        <Prerequisites>
+            <SettlementImprovementPrerequisite>
+                <improvementType>23</improvementType>
+            </SettlementImprovementPrerequisite>
+            <PopulationPrerequisite>
+                <population>300</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="25" name="Infantry barracks">
+        <Properties>
+            <buildable_property>
+                <build_cost>5000</build_cost>
+                <upkeep_cost>25</upkeep_cost>
+            </buildable_property>
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>300</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>
+    <SettlementImprovement id="26" name="Mech barracks">
+        <Properties>
+            <buildable_property>
+                <build_cost>12000</build_cost>
+                <upkeep_cost>60</upkeep_cost>
+            </buildable_property>
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>400</population>
+            </PopulationPrerequisite>
+        </Prerequisites>
+    </SettlementImprovement>    
+    <SettlementImprovement id="27" name="Rifle workshop">
+        <workers>50</workers>
+        <Properties>
+            <buildable_property>
+                <build_cost>8000</build_cost>
+                <upkeep_cost>40</upkeep_cost>
+            </buildable_property>
+            <ProduceResource maximumMultiplier="50">
+                <Input>
+                    <Resource id="2" quantity="8"/>
+                    <Resource id="7" quantity="6"/>
+                    <Resource id="12" quantity="4"/>
+                </Input>
+                <Output>
+                    <Resource id="13" quantity="1"/>
+                </Output>
+            </ProduceResource>
+        </Properties>
+        <Prerequisites>
+            <PopulationPrerequisite>
+                <population>300</population>
+            </PopulationPrerequisite>
+        </Prerequisites>        
+    </SettlementImprovement>
+</SettlementImprovements>

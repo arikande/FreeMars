@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN" "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<index version="1.0">
+    <indexitem text="Arena" target="ColonyImprovement.Arena"/>
+    <indexitem text="Bank" target="ColonyImprovement.Bank"/>
+    <indexitem text="Chasm" target="TileType.Chasm"/>
+    <indexitem text="Chemicals" target="Resource.Chemicals"/>
+    <indexitem text="Chemical plant" target="ColonyImprovement.Chemical_plant"/>
+    <indexitem text="Colonization" target="Mars.Colonization"/>
+    <indexitem text="Colonizer" target="Unit.Colonizer"/>
+    <indexitem text="Colony screen" target="Colony.Screen"/>
+    <indexitem text="Colony tax" target="Government.Colony_tax"/>
+    <indexitem text="Crater" target="TileType.Crater"/>
+    <indexitem text="Defense turrets" target="ColonyImprovement.Defence_turrets"/>
+    <indexitem text="Desert" target="TileType.Desert"/>
+    <indexitem text="Energy" target="Resource.Energy"/>
+    <indexitem text="Engineer" target="Unit.Engineer"/>
+    <indexitem text="Factory" target="ColonyImprovement.Factory"/>
+    <indexitem text="Food" target="Resource.Food"/>
+    <indexitem text="Food silo" target="ColonyImprovement.Food_silo"/>
+    <indexitem text="Giant mushrooms" target="Vegetation.Giant_mushrooms"/>
+    <indexitem text="Glass" target="Resource.Glass"/>
+    <indexitem text="Glass factory" target="ColonyImprovement.Glass_factory"/>
+    <indexitem text="Granary" target="ColonyImprovement.Granary"/>
+    <indexitem text="Hills" target="TileType.Hills"/>
+    <indexitem text="Hydrogen" target="Resource.Hydrogen"/>
+    <indexitem text="Hydrogen collector" target="ColonyImprovement.Hydrogen_collector"/>
+    <indexitem text="Hydroponic farm" target="ColonyImprovement.Hydroponic_farm"/>
+    <indexitem text="Ice" target="TileType.Ice"/>
+    <indexitem text="Iron" target="Resource.Iron"/>
+    <indexitem text="Iron deposits" target="Resource.Bonus.1"/>
+    <indexitem text="Irrigation" target="TileImprovement.Irrigation"/>
+    <indexitem text="Lumber" target="Resource.Lumber"/>
+    <indexitem text="Macko lizard" target="Resource.Bonus.0"/>
+    <indexitem text="Market" target="ColonyImprovement.Market"/>
+    <indexitem text="Mars" target="Mars.Introduction"/>
+    <indexitem text="Mars transit system" target="ColonyImprovement.Mars_transit_system"/>
+    <indexitem text="Martian resources" target="Resource.General"/>
+    <indexitem text="Martian scrub forest" target="Vegetation.Martian_scrub_forest"/>
+    <indexitem text="Martian taiga" target="Vegetation.Martian_taiga"/>
+    <indexitem text="Martian terrain" target="TileType.General"/>
+    <indexitem text="Mech" target="Unit.Mech"/>
+    <indexitem text="Mech barracks" target="ColonyImprovement.Mech_barracks"/>
+    <indexitem text="Militia" target="Unit.Militia"/>
+    <indexitem text="Mines" target="TileImprovement.Mine"/>
+    <indexitem text="Mineral deposits" target="Resource.Bonus.3"/>
+    <indexitem text="Minerals" target="Resource.Minerals"/>
+    <indexitem text="Misty mountains" target="TileType.Misty_mountains"/>
+    <indexitem text="Mountains" target="TileType.Mountains"/>
+    <indexitem text="Mutated cactus forest" target="Vegetation.Mutated_cactus_forest"/>
+    <indexitem text="Plains" target="TileType.Plains"/>
+    <indexitem text="Roads" target="TileImprovement.Road"/>
+    <indexitem text="Scout" target="Unit.Scout"/>
+    <indexitem text="Shuttle" target="Unit.Shuttle"/>
+    <indexitem text="Silica" target="Resource.Silica"/>
+    <indexitem text="Silica deposits" target="Resource.Bonus.2"/>
+    <indexitem text="Solar array" target="ColonyImprovement.Solar_array"/>
+    <indexitem text="Starport" target="ColonyImprovement.Starport"/>
+    <indexitem text="Starshipyard" target="ColonyImprovement.Starshipyard"/>
+    <indexitem text="Steel" target="Resource.Steel"/>
+    <indexitem text="Steel factory" target="ColonyImprovement.Steel_factory"/>
+    <indexitem text="Swamp" target="TileType.Swamp"/>
+    <indexitem text="Terraforming" target="Mars.Terraforming"/>
+    <indexitem text="Terrain improvements" target="TileImprovement.General"/>
+    <indexitem text="Theater" target="ColonyImprovement.Theater"/>
+    <indexitem text="Trading post" target="ColonyImprovement.Trading_post"/>
+    <indexitem text="Transporter" target="Unit.Transporter"/>
+    <indexitem text="Tundra" target="TileType.Tundra"/>
+    <indexitem text="Units" target="Unit.General"/>
+    <indexitem text="Vegetation" target="Vegetation.General"/>
+    <indexitem text="Wall" target="ColonyImprovement.Wall"/>
+    <indexitem text="Wasteland" target="TileType.Wasteland"/>
+    <indexitem text="Workshop" target="ColonyImprovement.Workshop"/>
+</index>

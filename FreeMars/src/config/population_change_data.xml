@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PopulationChangeManager>
+    <populationIncreaseBasePercentData>
+        <populationIncreaseBasePercentDataItem>
+            <PopulationInterval>
+                <start>0</start>
+                <end>200</end>
+            </PopulationInterval>
+            <changePercent>1</changePercent>
+        </populationIncreaseBasePercentDataItem>
+        <populationIncreaseBasePercentDataItem>
+            <PopulationInterval>
+                <start>201</start>
+                <end>1000</end>
+            </PopulationInterval>
+            <changePercent>0.5</changePercent>
+        </populationIncreaseBasePercentDataItem>
+        <populationIncreaseBasePercentDataItem>
+            <PopulationInterval>
+                <start>1001</start>
+            </PopulationInterval>
+            <changePercent>0.3</changePercent>
+        </populationIncreaseBasePercentDataItem>
+    </populationIncreaseBasePercentData>
+    <populationDecreaseBasePercentData>
+        <populationDecreaseBasePercentDataItem>
+            <PopulationInterval>
+                <start>0</start>
+                <end>1000</end>
+            </PopulationInterval>
+            <changePercent>0.2</changePercent>
+        </populationDecreaseBasePercentDataItem>
+        <populationDecreaseBasePercentDataItem>
+            <PopulationInterval>
+                <start>1001</start>
+            </PopulationInterval>
+            <changePercent>0.1</changePercent>
+        </populationDecreaseBasePercentDataItem>
+    </populationDecreaseBasePercentData>
+</PopulationChangeManager>

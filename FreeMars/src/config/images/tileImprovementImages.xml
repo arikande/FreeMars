@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FreeMarsImageConfiguration>
+    <imagesFolder>/images/</imagesFolder>
+    <images>
+        <image>
+            <name>IMPROVEMENT_Irrigation</name>
+            <path>improvement/irrigation.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_Mine</name>
+            <path>improvement/mine.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_N</name>
+            <path>improvement/road_N.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_NE</name>
+            <path>improvement/road_NE.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_E</name>
+            <path>improvement/road_E.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_SE</name>
+            <path>improvement/road_SE.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_S</name>
+            <path>improvement/road_S.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_SW</name>
+            <path>improvement/road_SW.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_W</name>
+            <path>improvement/road_W.png</path>
+        </image>
+        <image>
+            <name>IMPROVEMENT_road_NW</name>
+            <path>improvement/road_NW.png</path>
+        </image>
+    </images>
+</FreeMarsImageConfiguration>

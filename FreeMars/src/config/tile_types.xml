@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileTypes>
+    <tileType id="0" name="Wasteland" movementCost="1" probability="63" defencePercentage="0" >
+        <resources>
+            <Food>4</Food>
+        </resources>
+        <transformableTileTypes>
+            <transformableTileType>
+                <tileTypeId>2</tileTypeId>
+                <transformationCost>700</transformationCost>
+            </transformableTileType>
+        </transformableTileTypes>
+    </tileType>
+    <tileType id="1" name="Desert" movementCost="1" probability="18" defencePercentage="0" >
+        <resources>
+            <Silica>3</Silica>
+        </resources>
+        <transformableTileTypes>
+            <transformableTileType>
+                <transformationCost>1000</transformationCost>
+                <tileTypeId>0</tileTypeId>
+            </transformableTileType>
+        </transformableTileTypes>
+    </tileType>
+    <tileType id="2" name="Plains" movementCost="1" probability="18" defencePercentage="0" >
+        <resources>
+            <Food>8</Food>
+        </resources>
+    </tileType>
+    <tileType id="3" name="Tundra" movementCost="1" probability="3" defencePercentage="0" >
+        <resources>
+            <Food>1</Food>
+            <Minerals>2</Minerals>
+        </resources>
+    </tileType>
+    <tileType id="4" name="Crater" movementCost="2" probability="6" defencePercentage="20" >
+        <resources>
+            <Minerals>3</Minerals>
+            <Magnesium>1</Magnesium>
+        </resources>
+    </tileType>
+    <tileType id="5" name="Ice" movementCost="2" probability="3" defencePercentage="0">
+        <transformableTileTypes>
+            <transformableTileType>
+                <transformationCost>1200</transformationCost>
+                <tileTypeId>3</tileTypeId>
+            </transformableTileType>
+        </transformableTileTypes>
+    </tileType>
+    <tileType id="6" name="Chasm" movementCost="8" probability="2" defencePercentage="100" />
+    <tileType id="7" name="Misty mountains" movementCost="8" probability="3" defencePercentage="100" >
+        <resources>
+            <Minerals>2</Minerals>
+            <Iron>2</Iron>
+        </resources>
+    </tileType>
+    <tileType id="8" name="Hills" movementCost="2" probability="20" defencePercentage="50" >
+        <resources>
+            <Minerals>2</Minerals>
+            <Iron>2</Iron>
+            <Silica>2</Silica>
+        </resources>
+        <transformableTileTypes>
+            <transformableTileType>
+                <transformationCost>1200</transformationCost>
+                <tileTypeId>0</tileTypeId>
+            </transformableTileType>
+        </transformableTileTypes>
+    </tileType>
+    <tileType id="9" name="Mountains" movementCost="3" probability="8" defencePercentage="100" >
+        <resources>
+            <Iron>3</Iron>
+            <Magnesium>1</Magnesium>
+            <Aluminium>1</Aluminium>
+        </resources>
+        <transformableTileTypes>
+            <transformableTileType>
+                <transformationCost>1700</transformationCost>
+                <tileTypeId>8</tileTypeId>
+            </transformableTileType>
+        </transformableTileTypes>
+    </tileType>
+    <tileType id="10" name="Swamp" movementCost="2" probability="18" defencePercentage="50" >
+        <resources>
+            <Food>2</Food>
+            <Iron>1</Iron>
+        </resources>
+    </tileType>
+</tileTypes>

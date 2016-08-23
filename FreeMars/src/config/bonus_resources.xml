@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bonusResources>
+    <bonusResource>
+        <id>0</id>
+        <name>Macko lizard</name>
+        <tileTypes>
+            <tileTypeId>0</tileTypeId>
+            <tileTypeId>2</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Food</resource>
+                <modifier>3</modifier>
+                <modifyingOnlyIfResourceExists>false</modifyingOnlyIfResourceExists>
+            </modifyResourceProduction>
+        </properties>
+    </bonusResource>
+    <bonusResource>
+        <id>1</id>
+        <name>Iron deposit</name>
+        <tileTypes>
+            <tileTypeId>4</tileTypeId>
+            <tileTypeId>8</tileTypeId>
+            <tileTypeId>9</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Iron</resource>
+                <modifier>2</modifier>
+                <modifyingOnlyIfResourceExists>false</modifyingOnlyIfResourceExists>
+            </modifyResourceProduction>
+        </properties>
+    </bonusResource>
+    <bonusResource>
+        <id>2</id>
+        <name>Silica deposit</name>
+        <tileTypes>
+            <tileTypeId>1</tileTypeId>
+            <tileTypeId>4</tileTypeId>
+            <tileTypeId>8</tileTypeId>
+            <tileTypeId>9</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Silica</resource>
+                <modifier>2</modifier>
+                <modifyingOnlyIfResourceExists>false</modifyingOnlyIfResourceExists>
+            </modifyResourceProduction>
+        </properties>
+    </bonusResource>
+    <bonusResource>
+        <id>3</id>
+        <name>Mineral deposits</name>
+        <tileTypes>
+            <tileTypeId>3</tileTypeId>
+            <tileTypeId>4</tileTypeId>
+            <tileTypeId>8</tileTypeId>
+            <tileTypeId>9</tileTypeId>
+        </tileTypes>
+        <properties>
+            <modifyResourceProduction>
+                <resource>Minerals</resource>
+                <modifier>2</modifier>
+                <modifyingOnlyIfResourceExists>false</modifyingOnlyIfResourceExists>
+            </modifyResourceProduction>
+        </properties>
+    </bonusResource>
+</bonusResources>
